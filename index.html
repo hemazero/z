@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Z+ - مسابقة عائلية</title>
+  <title>Z+</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -911,7 +911,7 @@
   <!-- ===== SCREEN 1: الإعداد ===== -->
   <div id="screen-setup" class="screen active">
     <div class="logo">Z+</div>
-    <div class="logo-subtitle">مسابقة عائلية</div>
+    <div class="logo-subtitle">مسابقة جماعية</div>
     <div class="setup-form">
       <label><span class="badge badge-t1">1</span> اسم الفريق الأول</label>
       <input type="text" id="team1-input" placeholder="مثال: النسور" maxlength="24" value="">
@@ -1083,12 +1083,12 @@
 
     /* ===== ARABIC STRINGS ===== */
     const AR = {
-      fileOk: '✅ تم تحميل الملف بنجاح!',
+      fileOk: '✅ تم تحميل الملف بنجاح',
       fileBad: '❌ تنسيق غير صالح: مصفوفة التصنيفات مفقودة',
       catBad: 'التصنيف',
       hasBad: 'يحتوي على أسئلة غير صالحة',
       qBad: 'سؤال غير صالح في التصنيف',
-      award1: '🏆 منح',
+      award1: 'منح',
       award2: 'منح',
       noPts: 'بدون نقاط',
       closeNoPts: 'إغلاق (بدون نقاط)',
@@ -1320,12 +1320,12 @@
       const t1 = hintStatus1;
       const t2 = hintStatus2;
       t1.innerHTML = state.team1.hintUsed
-        ? '<span class="hint-dot used"></span>💡 مستخدمة'
-        : '<span class="hint-dot available"></span>💡 متاحة';
+        ? '<span class="hint-dot used"></span>0 مساعدة'
+        : '<span class="hint-dot available"></span>💡1 مساعدة';
       t1.className = 'hint-status' + (state.team1.hintUsed ? ' used' : '');
       t2.innerHTML = state.team2.hintUsed
-        ? '<span class="hint-dot used"></span>💡 مستخدمة'
-        : '<span class="hint-dot available"></span>💡 متاحة';
+        ? '<span class="hint-dot used"></span>0 مساعدة'
+        : '<span class="hint-dot available"></span>💡1 مساعدة'';
       t2.className = 'hint-status' + (state.team2.hintUsed ? ' used' : '');
     }
 
@@ -1369,7 +1369,7 @@
       currentTeam.hintUsed = true;
       const answer = state.currentQuestion.question.answer;
       const firstChar = answer.trim().charAt(0) || '?';
-      hintDisplay.textContent = `🔤 الحرف الأول: ${firstChar}`;
+      hintDisplay.textContent = `:الحرف الأول: ${firstChar}`;
       hintDisplay.classList.add('revealed');
       modalHint.disabled = true;
       updateHintStatus();
@@ -1545,7 +1545,7 @@
       }
     });
 
-    console.log('🎮 Z+ مسابقة عائلية جاهزة! ارفع ملف JSON للبدء.');
+    console.log('🎮 Z+ مسابقة جماعية جاهزة! ارفع ملف JSON للبدء.');
   </script>
 
 </body>
