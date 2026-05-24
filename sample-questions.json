@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "name": "History",
+      "questions": [
+        { "points": 200, "question": "In what year did World War II end?", "answer": "1945" },
+        { "points": 200, "question": "Who was the first President of the United States?", "answer": "George Washington" },
+        { "points": 400, "question": "Which ancient civilization built the Machu Picchu citadel?", "answer": "The Inca Empire" },
+        { "points": 400, "question": "What ancient wonder was located in Alexandria, Egypt?", "answer": "The Lighthouse of Alexandria" },
+        { "points": 600, "question": "In which year did the French Revolution begin?", "answer": "1789" },
+        { "points": 600, "question": "Who was the first woman to fly solo across the Atlantic?", "answer": "Amelia Earhart" }
+      ]
+    },
+    {
+      "name": "Science",
+      "questions": [
+        { "points": 200, "question": "What is the chemical symbol for water?", "answer": "H2O" },
+        { "points": 200, "question": "What planet is known as the Red Planet?", "answer": "Mars" },
+        { "points": 400, "question": "What is the largest organ in the human body?", "answer": "The skin" },
+        { "points": 400, "question": "What gas do plants absorb from the atmosphere?", "answer": "Carbon dioxide" },
+        { "points": 600, "question": "What is the speed of light in a vacuum (km/s)?", "answer": "299,792 km/s" },
+        { "points": 600, "question": "What element has the atomic number 1?", "answer": "Hydrogen" }
+      ]
+    },
+    {
+      "name": "Geography",
+      "questions": [
+        { "points": 200, "question": "What is the capital of France?", "answer": "Paris" },
+        { "points": 200, "question": "Which is the largest continent by area?", "answer": "Asia" },
+        { "points": 400, "question": "What is the longest river in the world?", "answer": "The Amazon River" },
+        { "points": 400, "question": "Which desert is the largest hot desert on Earth?", "answer": "The Sahara Desert" },
+        { "points": 600, "question": "What is the deepest ocean trench?", "answer": "The Mariana Trench" },
+        { "points": 600, "question": "Which country has the most natural lakes?", "answer": "Canada" }
+      ]
+    },
+    {
+      "name": "Movies",
+      "questions": [
+        { "points": 200, "question": "Which movie features a character named Simba?", "answer": "The Lion King" },
+        { "points": 200, "question": "Who directed Jurassic Park?", "answer": "Steven Spielberg" },
+        { "points": 400, "question": "In which year was the first Harry Potter film released?", "answer": "2001" },
+        { "points": 400, "question": "Which film won the first Academy Award for Best Picture?", "answer": "Wings" },
+        { "points": 600, "question": "Who played the Joker in The Dark Knight?", "answer": "Heath Ledger" },
+        { "points": 600, "question": "What is the highest-grossing film of all time (not adjusted)?", "answer": "Avatar" }
+      ]
+    },
+    {
+      "name": "Music",
+      "questions": [
+        { "points": 200, "question": "Which instrument has 88 keys?", "answer": "Piano" },
+        { "points": 200, "question": "Who sang 'Thriller'?", "answer": "Michael Jackson" },
+        { "points": 400, "question": "Which band performed 'Bohemian Rhapsody'?", "answer": "Queen" },
+        { "points": 400, "question": "What is the best-selling album of all time?", "answer": "Thriller" },
+        { "points": 600, "question": "Which composer wrote the 'Moonlight Sonata'?", "answer": "Ludwig van Beethoven" },
+        { "points": 600, "question": "What instrument did Louis Armstrong famously play?", "answer": "Trumpet" }
+      ]
+    },
+    {
+      "name": "Sports",
+      "questions": [
+        { "points": 200, "question": "In which sport is a 'love' score used?", "answer": "Tennis" },
+        { "points": 200, "question": "How many players are on a standard soccer team?", "answer": "11" },
+        { "points": 400, "question": "Which country hosted the 2016 Summer Olympics?", "answer": "Brazil" },
+        { "points": 400, "question": "What sport is played at Wimbledon?", "answer": "Tennis" },
+        { "points": 600, "question": "Who holds the record for most Olympic gold medals?", "answer": "Michael Phelps" },
+        { "points": 600, "question": "In which year were the first modern Olympics held?", "answer": "1896" }
+      ]
+    },
+    {
+      "name": "Nature",
+      "questions": [
+        { "points": 200, "question": "What is the fastest land animal?", "answer": "The cheetah" },
+        { "points": 200, "question": "How many legs does an octopus have?", "answer": "Eight" },
+        { "points": 400, "question": "What type of tree produces acorns?", "answer": "Oak tree" },
+        { "points": 400, "question": "Which bird is known for its colorful tail feathers?", "answer": "Peacock" },
+        { "points": 600, "question": "What is the largest species of shark?", "answer": "The whale shark" },
+        { "points": 600, "question": "Which flower is associated with the Netherlands?", "answer": "Tulip" }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "questions": [
+        { "points": 200, "question": "What fruit is known as the 'king of fruits'?", "answer": "Durian" },
+        { "points": 200, "question": "Which country is the origin of sushi?", "answer": "Japan" },
+        { "points": 400, "question": "What is the main ingredient in guacamole?", "answer": "Avocado" },
+        { "points": 400, "question": "Which spice gives curry its yellow color?", "answer": "Turmeric" },
+        { "points": 600, "question": "What type of pasta is shaped like small tubes?", "answer": "Macaroni" },
+        { "points": 600, "question": "Which country consumes the most chocolate per capita?", "answer": "Switzerland" }
+      ]
+    },
+    {
+      "name": "Technology",
+      "questions": [
+        { "points": 200, "question": "What does 'HTML' stand for?", "answer": "HyperText Markup Language" },
+        { "points": 200, "question": "Who founded Microsoft?", "answer": "Bill Gates" },
+        { "points": 400, "question": "What year was the first iPhone released?", "answer": "2007" },
+        { "points": 400, "question": "What does 'CPU' stand for?", "answer": "Central Processing Unit" },
+        { "points": 600, "question": "Who is known as the father of the World Wide Web?", "answer": "Tim Berners-Lee" },
+        { "points": 600, "question": "What programming language was created by James Gosling?", "answer": "Java" }
+      ]
+    },
+    {
+      "name": "Animals",
+      "questions": [
+        { "points": 200, "question": "What is the largest mammal in the world?", "answer": "The blue whale" },
+        { "points": 200, "question": "Which animal is known as the 'King of the Jungle'?", "answer": "The lion" },
+        { "points": 400, "question": "How many hearts does an octopus have?", "answer": "Three" },
+        { "points": 400, "question": "Which animal can change its color to blend in?", "answer": "Chameleon" },
+        { "points": 600, "question": "What is the only mammal capable of true flight?", "answer": "The bat" },
+        { "points": 600, "question": "Which animal has the longest lifespan?", "answer": "The bowhead whale" }
+      ]
+    }
+  ]
+}
